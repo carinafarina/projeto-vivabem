@@ -34,8 +34,9 @@ header .box-header nav {
   justify-content: space-evenly;
 }
 header .box-header nav a {
-  color: #fff;
+  color: white;
   font-family: "Roboto", sans-serif;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .box-banner {
@@ -46,6 +47,8 @@ header .box-header nav a {
 }
 .box-banner .box-titulo {
   height: 60vh;
+  margin: 10px;
+  padding: 10px;
 }
 .box-banner .box-titulo h2 {
   font-size: 2.7rem;
@@ -56,4 +59,159 @@ header .box-header nav a {
   background-clip: text;
   color: transparent;
   font-weight: bold;
+  margin-bottom: 10px;
+  width: 550px;
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  width: 450px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+button:hover {
+  margin: 10px;
+  color: #98FB98;
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn1 {
+  background-color: #1173D4;
+  border: 1px solid #1173D4;
+  color: white;
+  width: 16vw;
+  height: 7vh;
+  border-radius: 10px;
+}
+
+.btn2 {
+  background: #F9FAFB;
+  border: 1px solid #1173D4;
+  color: #1173D4;
+  width: 7vw;
+  height: 7vh;
+  border-radius: 10px;
+}
+
+.box-segunda {
+  background: #F8F9FA;
+  height: 88vh;
+  width: 100%;
+  color: black;
+  margin-top: 55px;
+}
+.box-segunda .box-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-segunda h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #1173D4 0%, #33CC73 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  width: 550px;
+}
+.box-segunda h2 .pcard {
+  width: 100px;
+}
+.box-segunda .pbox {
+  width: 740px;
+  text-align: center;
+}
+
+.cards {
+  padding: 50px 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: #F9FAFB;
+  width: 280px;
+  height: 208px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card .icard {
+  width: 50px;
+}
+.card .pcard {
+  width: 230px;
+}
+
+.box-terceira {
+  background: #FDEFEF;
+  width: 100%;
+  height: 230vh;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(90deg, rgba(249, 1, 111, 0.54) 0%, rgba(147, 8, 133, 0.619615) 41.83%, rgba(208, 56, 170, 0.754793) 70.19%, #851C87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  margin-top: 40px;
+  width: 550px;
+}
+
+.cards2 {
+  margin-left: 240px;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1050px;
+}
+
+.card2 {
+  background: #F9FAFB;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.pcard2 {
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
