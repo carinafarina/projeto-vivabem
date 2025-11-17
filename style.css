@@ -50,16 +50,14 @@ header .box-header nav a {
   margin: 10px;
   padding: 10px;
 }
-.box-banner .box-titulo h2 {
+.box-banner .box-titulo .box1 {
   font-size: 2.7rem;
   font-weight: bold;
   background: linear-gradient(to right, #1173D4 0%, #33CC73 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  margin-bottom: 10px;
+  margin-top: 100px;
   width: 550px;
 }
 
@@ -67,7 +65,7 @@ header .box-header nav a {
   font-weight: bold;
   font-size: 1.7rem;
   width: 450px;
-  margin-bottom: 50px;
+  margin-top: 25px;
   color: black;
 }
 
@@ -76,23 +74,24 @@ button:hover {
   color: #98FB98;
   transform: scale(0.9);
   cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-top: 25px;
 }
 
 .btn1 {
   background-color: #1173D4;
   border: 1px solid #1173D4;
   color: white;
-  width: 16vw;
+  width: 20vw;
   height: 7vh;
   border-radius: 10px;
+  margin-top: 35px;
 }
 
 .btn2 {
   background: #F9FAFB;
   border: 1px solid #1173D4;
   color: #1173D4;
-  width: 7vw;
+  width: 10vw;
   height: 7vh;
   border-radius: 10px;
 }
@@ -172,7 +171,7 @@ button:hover {
   justify-content: center;
 }
 
-h2 {
+.box-box3 {
   font-size: 2rem;
   font-weight: bold;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(90deg, rgba(249, 1, 111, 0.54) 0%, rgba(147, 8, 133, 0.619615) 41.83%, rgba(208, 56, 170, 0.754793) 70.19%, #851C87 100%);
@@ -214,4 +213,164 @@ h2 {
 
 .pcard2 {
   width: 200px;
+}
+
+.box-quarta {
+  background: #f2f8fb;
+  width: 100%;
+  height: 230vh;
+  flex-wrap: wrap;
+}
+
+.box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-box4 {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(90deg, #3373D2 16.04%, #6F95C7 33.14%, #7BB5F5 54.51%, #0074EE 68.5%, #5EA7EF 87.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  margin-top: 40px;
+  width: 550px;
+}
+
+.cards3 {
+  margin-left: 240px;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1050px;
+}
+
+.card3 {
+  background: #F9FAFB;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.pcard3 {
+  width: 200px;
+}
+
+.box-quinta {
+  width: 100%;
+  height: 80vh;
+  flex-wrap: wrap;
+}
+
+.box5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-box5 {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(90deg, #1173D4 25.96%, #33CC73 74.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 250px;
+  margin-top: 40px;
+  width: 550px;
+}
+
+.cards4 {
+  margin-left: 240px;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1050px;
+}
+
+.card-1 {
+  background: #F9D5E5;
+  color: #AD346A;
+  text-align: center;
+  width: 400px;
+  height: 141px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-2 {
+  background: #CFE2F3;
+  color: #2769A3;
+  text-align: center;
+  width: 400px;
+  height: 141px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-3 {
+  background: #D4EDDA;
+  color: #244A2D;
+  text-align: center;
+  width: 400px;
+  height: 141px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-4 {
+  background: #FFE9C2;
+  color: #976C00;
+  text-align: center;
+  width: 400px;
+  height: 141px;
+  margin: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+  height: 80vh;
 }/*# sourceMappingURL=style.css.map */
