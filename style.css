@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 }
 
 header {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,7 @@ header {
   background-size: contain;
 }
 header .box-header {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 80%;
   height: 10vh;
   border-radius: 50px;
@@ -98,10 +99,10 @@ button:hover {
 
 .box-segunda {
   background: #F8F9FA;
-  height: 88vh;
+  height: 65vh;
   width: 100%;
   color: black;
-  margin-top: 55px;
+  margin-top: 15px;
 }
 .box-segunda .box-box {
   display: flex;
@@ -161,7 +162,7 @@ button:hover {
 .box-terceira {
   background: #FDEFEF;
   width: 100%;
-  height: 230vh;
+  height: 145vh;
   flex-wrap: wrap;
 }
 
@@ -218,7 +219,7 @@ button:hover {
 .box-quarta {
   background: #f2f8fb;
   width: 100%;
-  height: 230vh;
+  height: 145vh;
   flex-wrap: wrap;
 }
 
@@ -370,7 +371,152 @@ button:hover {
   flex-wrap: wrap;
 }
 
-footer {
+.main-footer {
+  background-color: #313461;
+  color: #ffffff;
+  padding: 3rem 2rem 1rem;
   width: 100%;
-  height: 80vh;
+}
+.main-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+.main-footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main-footer p,
+.main-footer a,
+.main-footer li {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #fefefe;
+  text-decoration: none;
+}
+.main-footer a:hover {
+  color: #d1d1d1;
+}
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-footer ul li {
+  margin-bottom: 10px;
+}
+.main-footer p {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+.main-footer .footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+.main-footer .footer-brand,
+.main-footer .footer-links,
+.main-footer .footer-contact {
+  width: 30%;
+  margin-bottom: 30px;
+  min-width: 180px;
+}
+.main-footer .footer-disclaimer {
+  width: 100%;
+  border-top: 1px solid #9fabbc;
+  padding: 20px 2rem;
+}
+.main-footer .footer-final {
+  max-width: 1200px;
+  margin-inline: auto;
+  text-align: center;
+}
+.main-footer .footer-final p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  /* 1. HEADER GERAL */
+  header {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    background: none;
+  }
+  .box-header {
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 8px 3px;
+    border-radius: 60px;
+    height: 5vh !important;
+  }
+  .box-header img {
+    width: 30%;
+  }
+  .box-header nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+  }
+  .box-header nav a {
+    font-size: 2.7vw !important;
+    width: 18.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  /* 2. BANNER (.box-banner) - Força o empilhamento vertical */
+  .box-banner {
+    flex-direction: column;
+    display: flex;
+    height: 70vh !important;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .box-banner .box-titulo {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box-banner .box-titulo h1 {
+    margin-bottom: 0% !important;
+    width: 100% !important;
+    text-align: center;
+    font-size: 11.5vw !important;
+  }
+  .box-banner .box-titulo p {
+    width: 68% !important;
+    text-align: center;
+    font-size: 4.5vw !important;
+  }
+  .box-banner .box-titulo .main-footer {
+    padding: 2rem 1rem;
+  }
+  .box-banner .box-titulo .main-footer .footer-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .box-banner .box-titulo .main-footer .footer-brand,
+  .box-banner .box-titulo .main-footer .footer-links,
+  .box-banner .box-titulo .main-footer .footer-contact {
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .box-banner .box-titulo .main-footer .footer-disclaimer {
+    padding: 15px 1rem;
+  }
+  .box-banner .box-titulo .main-footer .footer-final {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

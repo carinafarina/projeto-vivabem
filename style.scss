@@ -11,7 +11,7 @@
 }
 
 header {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ header {
     
 
     .box-header {
-        margin-top: 30px;
+        margin-top: 20px;
         width: 80%;
         height: 10vh;
         border-radius: 50px;
@@ -119,10 +119,10 @@ button:hover{
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .box-segunda{
     background: #F8F9FA;
-    height: 88vh; 
+    height: 65vh; 
     width: 100%;
     color: black;
-    margin-top: 55px;
+    margin-top: 15px;
 
     .box-box{
         display: flex;
@@ -188,7 +188,7 @@ h2 {
 .box-terceira{
     background: #FDEFEF;
     width: 100%;
-    height: 230vh;
+    height: 145vh;
     flex-wrap: wrap;
 
 
@@ -251,7 +251,7 @@ h2 {
 .box-quarta{
     background: #f2f8fb;
     width: 100%;
-    height: 230vh;
+    height: 145vh;
     flex-wrap: wrap;
 
 }
@@ -411,8 +411,168 @@ h2 {
     flex-wrap: wrap;
 }
 ///////////////////////////////////////////////---Footer---////////////////////////////////////////////////////
-footer{
+.main-footer {
+  background-color: #313461;
+  color: #ffffff;
+  padding: 3rem 2rem 1rem;
+  width: 100%;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  p,
+  a,
+  li {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #fefefe;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #d1d1d1;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+  }
+
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-contact {
+    width: 30%;
+    margin-bottom: 30px;
+    min-width: 180px;
+  }
+  .footer-disclaimer {
     width: 100%;
-    height: 80vh;
-    
+    border-top: 1px solid #9fabbc;
+    padding: 20px 2rem;
+  }
+  .footer-final {
+    max-width: 1200px;
+    margin-inline: auto;
+    text-align: center;
+    p {
+      font-size: 0.9rem;
+    }
+  }
 }
+
+
+@media (max-width: 768px) {
+  /* 1. HEADER GERAL */
+  header {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    background: none;
+  }
+  .box-header {
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 8px 3px;
+    border-radius: 60px;
+    height: 5vh !important;
+
+    img {
+      width: 30%;
+    }
+
+    nav {
+      flex-direction: row;
+      justify-content: center;
+      width: 60%;
+
+      a {
+        font-size: 2.7vw !important;
+        width: 18.5vw;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+
+  /* 2. BANNER (.box-banner) - Força o empilhamento vertical */
+  .box-banner {
+    flex-direction: column;
+    display: flex;
+    height: 70vh !important;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+
+    .box-titulo {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        margin-bottom: 0% !important;
+        width: 100% !important;
+        text-align: center;
+        font-size: 11.5vw !important;
+      }
+      p {
+        width: 68% !important;
+        text-align: center;
+        font-size: 4.5vw !important;
+      }
+
+ // @media
+
+  .main-footer {
+    padding: 2rem 1rem;
+  }
+
+  .main-footer .footer-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main-footer .footer-brand,
+  .main-footer .footer-links,
+  .main-footer .footer-contact {
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .main-footer .footer-disclaimer {
+    padding: 15px 1rem;
+  }
+  .main-footer .footer-final {
+    text-align: center;
+  }
+    }}}
