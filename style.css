@@ -372,10 +372,11 @@ button:hover {
 }
 
 .main-footer {
-  background-color: #313461;
+  background-color: #171a4a;
   color: #ffffff;
   padding: 3rem 2rem 1rem;
   width: 100%;
+  height: 50vh;
 }
 .main-footer .footer-content {
   display: flex;
@@ -428,7 +429,9 @@ button:hover {
 .main-footer .footer-disclaimer {
   width: 100%;
   border-top: 1px solid #9fabbc;
-  padding: 20px 2rem;
+  margin-top: 40px;
+  padding: 40px 2rem;
+  opacity: 1;
 }
 .main-footer .footer-final {
   max-width: 1200px;
